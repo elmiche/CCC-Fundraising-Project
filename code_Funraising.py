@@ -6,7 +6,7 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
         
 print(data)
 
-
+ 
         # TODO save as dictionary
 
  
