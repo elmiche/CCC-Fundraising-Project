@@ -16,17 +16,17 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
     for row in data:
         #Skips header
         if line_count == 0:
-           line count += 1
+           line_count += 1
         else:
-                #print row
-                first_name = row[0]
-                last_name = row [1]
-                email = row[2]
-
+			#print row
+			first_name = row[0]
+			last_name = row [1]
+			email = row[2]
                 if email in data:
                         continue
                 else:
                      students
+
 print(data)
 
 
