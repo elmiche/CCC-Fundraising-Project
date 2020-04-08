@@ -1,11 +1,15 @@
+# import numpy as np
+# import pandas as pd
 import csv
 
-#THIS VERSION PRINTS THE LIST
+
+# # THIS VERSION PRINTS THE LIST
 # with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer_listings_CCC.csv', 'r', encoding='ISO-8859-1') as file: 
 #     data = file.read()
-        
 
-#variables
+
+
+# #variables
 customers = {}     
 
 # THIS VERSION DOESN'T PRINT YET
@@ -27,7 +31,7 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
                 else:
                      students
 
-print(data)
+print(data.head())
 
 
  
