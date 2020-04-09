@@ -6,7 +6,7 @@ import csv
 # # THIS VERSION PRINTS THE LIST
 # with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer_listings_CCC.csv', 'r', encoding='ISO-8859-1') as file: 
 #     data = file.read()
-
+ 
 
 # #variables
 customers = {}     
