@@ -28,7 +28,8 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
 			last_name = contact_info[1]
 			phone_num = contact_info [8]
 			email = contact_info[11]
-			print(first_name, last_name, phone_num, email)
+			address = contact_info[3]
+			print(first_name, last_name, phone_num, email, address)
 			
 			# email = row[2]		
 			
