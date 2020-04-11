@@ -26,9 +26,10 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
 				#if statement: skip
 
 			last_name = contact_info[1]
-			phone_num = contact_info [8]
-			email = contact_info[11]
-			address = contact_info[3]
+			#clean up and save .lowercase .capetalize
+			phone_num = contact_info [8] #how to validate email & phone num on python
+			email = contact_info[11] #might have to import regex - model
+			address = contact_info[3] #do last
 			print(first_name, last_name, phone_num, email, address)
 			
 			# email = row[2]		
