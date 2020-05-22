@@ -1,5 +1,4 @@
-# import numpy as np
-# import pandas as pd
+
 import csv
 
 
@@ -14,7 +13,7 @@ customers = {}
 # THIS VERSION DOESN'T PRINT YET
 
 with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer_listings_CCC.csv', 'r', encoding='ISO-8859-1') as csv_file: 
-	data = csv.reader(csv_file, delimiter=',')
+	data = csv.reader(csv_file, delimiter=',', header = True)
 	line_count = 0
 	for contact_info in data:
 		#Skips header
