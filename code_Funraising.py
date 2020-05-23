@@ -28,7 +28,8 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
 			address = contact_info[3] #do last
 			print(first_name, last_name, phone_num, email, address)
 			
-		
+# ----- TODO: Empty Cells Remove ----- 
+# ----------- Clean up data --------
 
 
 
