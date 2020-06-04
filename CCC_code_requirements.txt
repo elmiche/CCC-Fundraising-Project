@@ -1,0 +1,8 @@
+The requirements are:
+Names - Proper punctuation. No all caps or all lower case names.
+
+Extremely important - no # symbols, Salesforce does not handle these well. 
+Phone Numbers - Nothing but numbers 5032888864 not (503) 288-8864 etc. 
+
+Addresses - Full Street address minimum, Proper punctuation. (Was this resolved by Gwen and Arlyn?)
+NE, not Ne or ne as in 1700 NE Alberta St, not 1700 Ne Alberta St or ne alberta st. 

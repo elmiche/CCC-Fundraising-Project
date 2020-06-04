@@ -7,29 +7,29 @@ with open('/Users/ElMiche/Desktop/PDX_Code_Guild/Confidential_CCC_files/customer
 	data = csv.reader(csv_file, delimiter=',')
 	line_count = 0
 	for contact_info in data:
-		#Skips header
+		#Skips header row
 		if line_count == 0:
 			line_count += 1
 		else:
-			#no contact condition
+			#no contact condition - people who don't want to be contacted
 			if contact_info[13] == 1:
 				line_count += 1
 			else:
-				#print row
+				#This prints contact_info rows
 				first_name = contact_info[0] 
-					#if statement: skip
-
 				last_name = contact_info[1]
-				#clean up and save .lowercase .capetalize
-				phone_num = contact_info [8] #how to validate email & phone num on python
-				email = contact_info[11] #might have to import regex - model
-				address = contact_info[3] #do last
+				#TODO: clean up and save .lowercase .capetalize
+				phone_num = contact_info [8] 
+				phone_no = phone_num.replace('-', '')
+				email = contact_info[11] 
+				#TODO: might have to import regex - model
+				address = contact_info[3] #TODO: do last
 				# print(first_name, last_name, phone_num, email, address)
-#BUild Dictionary - these people are OK with being contacted
+#Dictionary - these people are OK with being contacted
 				customers[email] = {
 					"First Name": first_name,
 					"Last Name": last_name,
-					"Phone Number": phone_num,
+					"Phone Number": phone_no,
 					"Email": email,
 					"Address": address
 				}
