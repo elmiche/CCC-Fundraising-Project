@@ -67,3 +67,15 @@ with open('duplicates.csv', 'w', newline='') as csvfile:
         enrolled = students[student]["Enrolled"]
 
         csv_writer.writerow([first_name, last_name, email, type, enrolled])
+
+
+
+# phone_num = '408-206-4164'
+# phone2 = ''
+# for char in phone_num:
+#   if char.isdigit() == True:
+#     phone2+=char
+#     print(char)
+#   else:
+#     print(f'{char} Not a number')
+# print(phone2)
